@@ -17,8 +17,6 @@
 | `best_model.pkl` | Обученная модель LightGBM (ROC-AUC = 0.719) |
 | `df_target.csv` | Датасет ga_sessions с добавленной целевой переменной |
 | `df_clean.csv` | Очищенный датасет (после обработки пропусков и дубликатов) |
-| `ga_sessions.csv` | Исходные данные сессий из Google Analytics |
-| `ga_hits.csv` | Исходные данные событий из Google Analytics |
 
 ## Входные параметры
 
