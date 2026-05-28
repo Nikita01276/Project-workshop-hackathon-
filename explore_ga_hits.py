@@ -5,7 +5,7 @@ PATH = r"C:\Users\Никита\Skillfactory\Project workshop (hackathon)\ga_hits
 df = pd.read_csv(PATH, low_memory=False)
 
     
-    df = pd.read_pickle(PATH)
+df = pd.read_pickle(PATH)
 print(f"Размер датасета: {df.shape}")
 
 #1. Все уникальные комбинации event_category + event_action
